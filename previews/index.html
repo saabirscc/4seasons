@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>4Seasons · pick a direction</title>
+<meta name="description" content="Two website directions and an ordering app for 4Seasons Restaurant, Taleex and Banaadir, Mogadishu.">
+<meta name="theme-color" content="#0f0b09">
+<link rel="icon" href="../brand/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@500;700;800&family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Big+Shoulders+Display:wght@900&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: #0f0b09; color: #fff4e8; font: 500 16px/1.55 Geist, system-ui, sans-serif; padding: clamp(24px, 5vw, 64px) clamp(16px, 4vw, 48px); }
+  header { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-bottom: 10px; }
+  header img { height: 64px; width: auto; }
+  h1 { margin: 0; font: 800 clamp(2.2rem, 5.5vw, 4rem)/1 "Bricolage Grotesque", system-ui, sans-serif; letter-spacing: -.04em; }
+  h1 i { color: #ea4f12; font-style: normal; }
+  .lead { margin: 12px 0 34px; color: #c9b29e; max-width: 66ch; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 22px; }
+  a.card { position: relative; display: grid; grid-template-rows: auto 1fr; border-radius: 24px; overflow: hidden; text-decoration: none; color: inherit; border: 1px solid rgba(255, 138, 76, .18); background: #18120e; transition: transform .35s cubic-bezier(.22, 1, .36, 1), border-color .3s, box-shadow .35s; }
+  a.card:hover { transform: translateY(-6px); border-color: #ea4f12; box-shadow: 0 30px 60px -30px rgba(234, 79, 18, .55); }
+  a.card:focus-visible { outline: 3px solid #ff8a4c; outline-offset: 4px; }
+  .thumb { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: #000; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .thumb.app { display: grid; place-items: center; background: radial-gradient(60% 70% at 50% 40%, #ff7a34, #9a2e06); }
+  .phone { width: 34%; aspect-ratio: 9 / 18; border-radius: 22px; border: 3px solid #1a1310; background: #fff4e8; display: grid; place-items: center; box-shadow: 0 24px 40px -18px rgba(0, 0, 0, .7); }
+  .phone img { width: 74%; height: auto; }
+  .body { padding: 18px 20px 22px; }
+  .tag { font: 800 .72rem Geist; letter-spacing: .2em; text-transform: uppercase; color: #ff8a4c; }
+  h2 { margin: 6px 0 6px; font: 800 2rem/1 "Bricolage Grotesque", sans-serif; letter-spacing: -.03em; }
+  .b h2 { font: 900 2.3rem/1 "Big Shoulders Display", sans-serif; text-transform: uppercase; letter-spacing: 0; }
+  p { margin: 0; color: #e8d6c4; }
+  .go { display: inline-block; margin-top: 12px; font-weight: 800; color: #ff8a4c; }
+  footer { margin-top: 40px; color: #9a8472; font-size: .85rem; max-width: 86ch; display: grid; gap: 8px; }
+  footer b { color: #c9b29e; }
+</style>
+</head>
+<body>
+<header><img src="../brand/logo-white.png" alt="4Seasons" width="580" height="480"><h1>Two <i>directions</i></h1></header>
+<p class="lead">Two ways to put 4Seasons Restaurant (Taleex and Banaadir, Mogadishu) on the web, plus an ordering app. Open each one and scroll all the way through, then pick the one to build into the full site.</p>
+<div class="grid">
+  <a class="card" href="a/">
+    <div class="thumb"><img src="../thumbs/a.jpg" alt="Preview A: the shawarma spit glowing at night on a steel counter" width="1440" height="900"></div>
+    <div class="body"><span class="tag">A · 3D · cinematic</span><h2>Shawarma after dark</h2><p>A steel counter at the shop front on a warm night street. The burner lights, the camera pulls back from the spit, the 4Seasons logo forms. Scroll and the counter changes: the sandwich, falafel, the crispy chicken burger, Pizzaball pizza, the $17 Family Box.</p><span class="go">Open A →</span></div>
+  </a>
+  <a class="card b" href="b/">
+    <div class="thumb"><img src="../thumbs/b.jpg" alt="Preview B: a combo tray on a turntable on a floodlit pitch, LED scoreboard behind" width="1440" height="900"></div>
+    <div class="body"><span class="tag">B · 3D · match night</span><h2>Watch the match here</h2><p>A stadium at night. Floodlights bang on, the LED scoreboard flickers to kick-off, a combo tray lands on the centre spot: 4Seasons 1–0 Hunger. The match plays as you scroll: kick-off, half-time, second half, extra time, predict the score.</p><span class="go">Open B →</span></div>
+  </a>
+  <a class="card" href="../app/">
+    <div class="thumb app"><div class="phone"><img src="../brand/logo-black.png" alt="" width="580" height="480"></div></div>
+    <div class="body"><span class="tag">App · demo</span><h2>Order &amp; collect stars</h2><p>A 4Seasons ordering and loyalty app in English and Somali: the menu, the Family Box, pick-up at Taleex or Banaadir or delivery, EVC Plus, credit or cash, stars and seasons as member levels.</p><span class="go">Open the app →</span></div>
+  </a>
+</div>
+<footer><p><a href="../film/" style="color:#ff8a4c;font-weight:800">Watch the 15-second reel →</a></p>
+<p><b>Real:</b> the two branches and numbers (Taleex 061 110 0991, Banaadir 061 771 5999), WhatsApp +252 61 1100991, Taleh Street behind Sombank, the Taleex rebuild and Pizzaball, the $17 Family Box, the menu items, their logo and orange, the match-night and predict-the-score posts, photos from their TikTok and Facebook.</p>
+<p><b>Placeholder (marked est. or demo):</b> every other price, opening hours, the Match Night combo, the Banaadir street address, the app's wallet, stars and rewards. Food pictures are 3D renders made for these previews. 3D: Poly Haven HDRIs and models (CC0), food modelled in three.js.</p></footer>
+</body>
+</html>
